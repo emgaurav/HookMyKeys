@@ -6,6 +6,9 @@ HookMyKeys is a simple python based keylogger designed for linux.
 2. Open terminal and type "bash install.sh"
 Done
 
+## Running
+Simply type hookmykeys in terminal
+
 ### Logs will be stored here : /home/<username>/HookMyKeys/HookMyKeys.log
 
 
