@@ -12,6 +12,6 @@ Simply type hookmykeys in terminal
 ## Quitting
 If you want to quit logging then press grave key (`)
 
-### Logs will be stored here : /home/<username>/HookMyKeys/HookMyKeys.log
+### Logs will be stored here : /home/$username/HookMyKeys/HookMyKeys.log
 
 
